@@ -131,8 +131,7 @@ find_qmake_qt5 () {
 		# and its -query QT_VERSION output is "5"...
 		# then return that executable name.
 		if [ -n "$(which $name)" ] && [ "$($name -query QT_VERSION | cut -d . -f 1)" = "5" ]; then
-			#echo $name
-			echo "qmake-qt5"
+			echo $name
 			break
 		fi
 	done
