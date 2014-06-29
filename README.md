@@ -1,10 +1,8 @@
-This Is Unmaintained
+Lazy Newb Pack Linux
 ====================
-As of 2014-06-24, this repository is unmaintained. No further updates will be added. See [this post for more
+As of 2014-06-24, [the master repository](https://github.com/andrewd18/df-lnp-installer) is unmaintained. See [this post for more
 information](http://www.bay12forums.com/smf/index.php?topic=130792.msg5403952#msg5403952).
 
-You are free to fork this under the terms of the
-[GPLv3](https://www.gnu.org/licenses/gpl.html) or study the code to build your own under another license.
 
 Overview
 ========
@@ -15,7 +13,7 @@ Included Mods
 -------------
 
 * Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822
-* DF Hack 0.34.11-r3
+* DF Hack 0.34.11-r5
 * Falconne's DFHack UI Plugins v0.44
 * SoundSense r42 (app only)
 * Dwarf Therapist v20.5 (splintermind, pulled and built from source) with manual
