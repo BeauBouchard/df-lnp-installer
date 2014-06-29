@@ -518,14 +518,14 @@ download_all () {
 
 	# Apps and utilities
 	download_file "http://www.bay12games.com/dwarves/df_34_11_linux.tar.bz2"
-	download_file "http://dethware.org/dfhack/download/dfhack-0.34.11-r3-Linux.tar.gz"
+	download_file "http://dffd.wimbli.com/download.php?id=8681&f=dfhack-0.34.11-r5-Linux.tar.gz" #upgraded to R5
 	download_dffi_file "http://dffd.wimbli.com/download.php?id=7248&f=Utility_Plugins_v0.44-Windows-0.34.11.r3.zip.zip"
 	download_file "http://df.zweistein.cz/soundsense/soundSense_42_186.zip"
 	download_file "http://drone.io/bitbucket.org/Dricus/lazy-newbpack/files/target/lazy-newbpack-linux-0.5.3-SNAPSHOT-20130822-1652.tar.bz2"
 	download_dffi_file "http://dffd.wimbli.com/download.php?id=2182&f=Chromafort.zip"
 	download_dffi_file "http://dffd.wimbli.com/download.php?id=7905&f=DFAnnouncementFilter.zip"
 	download_dffi_file "http://dffd.wimbli.com/download.php?id=7889&f=Dwarf+Therapist.pdf"
-    download_dffi_file "http://dffd.wimbli.com/download.php?id=8185&f=blueprints.zip"
+    	download_dffi_file "http://dffd.wimbli.com/download.php?id=8185&f=blueprints.zip"
 
 	# Graphics packs.
 	download_dffi_file "http://dffd.wimbli.com/download.php?id=2430&f=Phoebus_34_11v01.zip"
