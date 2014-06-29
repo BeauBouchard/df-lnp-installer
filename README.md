@@ -111,5 +111,7 @@ See [the WIKI](https://github.com/andrewd18/df-lnp-installer/wiki).
 Tested On
 =========
 
-* Debian 7 "Wheezy", stable, using Dash (default) shell.
-* Debian 7 "Jessie/Sid", testing, using Dash (default) shell.
+* --Debian 7 "Wheezy", stable, using Dash (default) shell.--
+* --Debian 7 "Jessie/Sid", testing, using Dash (default) shell.--
+* Ubuntu 13.10 "Saucy Salamander" fresh install.
+* Ubuntu 14.04 LTS "Trusty Tahr" fresh install.
