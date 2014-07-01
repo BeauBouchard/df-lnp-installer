@@ -66,7 +66,7 @@ sudo apt-get install default-jre libsdl1.2debian:i386 libsdl-image1.2:i386 libsd
 
 The Fedora command to install these dependencies is:
 ```
-sudo yum install java-1.7.0-openjdk gcc gcc-c++ automake libgcc.i686 git cmake glibc-devel.i686 zlib-devel.i686 perl-XML-LibXSLT perl-XML-LibXML mercurial qt.i686 libgcc.i686 qt-devel SDL.i686 SDL_image.i686 SDL_ttf.i686 gtk2.i686 mesa-libGLU.i686 openal-soft.i686 libsndfile.i686 xterm unzip python
+sudo yum install java-1.7.0-openjdk gcc gcc-c++ automake libgcc.i686 git cmake glibc-devel.i686 zlib-devel.i686 perl-XML-LibXSLT perl-XML-LibXML mercurial qt.i686 libgcc.i686 qt-devel SDL.i686 SDL_image.i686 SDL_ttf.i686 gtk2.i686 mesa-libGLU.i686 openal-soft.i686 libsndfile.i686 xterm unrar unzip python
 ```
 
 Usage
@@ -76,6 +76,8 @@ Usage
 Usage: df-lnp-installer.sh [OPTIONS]
 
 Options:
+--override-user-agent  # Download files as Mozilla user agent, not Wget user agent. Useful if you get 403 errors.
+--skip-download        # Install using the existing contents of the ./downloads folder.
 --skip-deps            # Install without checking for dependencies.
 --skip-sha             # Install without checking file checksums.
 --use-free-libs        # Force to use free graphic libs to solve "Not found" errors of DF.
@@ -110,7 +112,6 @@ See [the WIKI](https://github.com/andrewd18/df-lnp-installer/wiki).
 Tested On
 =========
 
-* ~~Debian 7 "Wheezy", stable, using Dash (default) shell.~~
-* ~~Debian 7 "Jessie/Sid", testing, using Dash (default) shell.~~
+* Debian 7     "Wheezy",          fresh install. 
 * Ubuntu 13.10 "Saucy Salamander" fresh install.
-* Ubuntu 14.04 LTS "Trusty Tahr" fresh install.
+* Ubuntu 14.04 "Trusty Tahr"      fresh install.
