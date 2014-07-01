@@ -59,14 +59,14 @@ System Requirements
 
 The df-lnp-installer script will automatically check your system for the required libraries.
 
-The Debian (and possibly Ubuntu) command to install these dependencies is:
+The Debian and Ubuntu command to install these dependencies is:
 ```
-sudo apt-get install default-jre libsdl1.2debian:i386 libsdl-image1.2:i386 libsdl-ttf2.0-0:i386 libglu1-mesa:i386 libgtk2.0-0:i386 libopenal1:i386 libjpeg62:i386 git mercurial libqt4-dev qt4-qmake wget coreutils tar unzip unrar make g++ gcc patch xterm sed python bzip2
+sudo apt-get install default-jre libsdl1.2debian:i386 libsdl-image1.2:i386 libsdl-ttf2.0-0:i386 libglu1-mesa:i386 libgtk2.0-0:i386 libopenal1:i386 libjpeg62:i386 git mercurial libqt4-dev qt4-qmake wget coreutils tar unzip make g++ gcc patch xterm sed python bzip2
 ```
 
 The Fedora command to install these dependencies is:
 ```
-sudo yum install java-1.7.0-openjdk gcc gcc-c++ automake libgcc.i686 git cmake glibc-devel.i686 zlib-devel.i686 perl-XML-LibXSLT perl-XML-LibXML mercurial qt.i686 libgcc.i686 qt-devel SDL.i686 SDL_image.i686 SDL_ttf.i686 gtk2.i686 mesa-libGLU.i686 openal-soft.i686 libsndfile.i686 xterm unrar unzip python
+sudo yum install java-1.7.0-openjdk gcc gcc-c++ automake libgcc.i686 git cmake glibc-devel.i686 zlib-devel.i686 perl-XML-LibXSLT perl-XML-LibXML mercurial qt.i686 libgcc.i686 qt-devel SDL.i686 SDL_image.i686 SDL_ttf.i686 gtk2.i686 mesa-libGLU.i686 openal-soft.i686 libsndfile.i686 xterm unzip python
 ```
 
 Usage
@@ -87,7 +87,7 @@ Options:
 Full Installation
 =================
 
-1. Clone the git repository with `git clone https://github.com/andrewd18/df-lnp-installer.git`
+1. Clone the git repository with `git clone https://github.com/BeauBouchard/df-lnp-installer.git`
 2. Run `./df-lnp-installer.sh` and follow the prompts.
 3. Once DF is installed, enter the DF folder and run ./startlnp.
 4. Start the SoundSense r42 utility from the Utilities tab.
