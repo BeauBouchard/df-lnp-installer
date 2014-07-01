@@ -76,10 +76,9 @@ Usage
 Usage: df-lnp-installer.sh [OPTIONS]
 
 Options:
---override-user-agent  # Download files as Mozilla user agent, not Wget user agent. Useful if you get 403 errors.
---skip-download        # Install using the existing contents of the ./downloads folder.
 --skip-deps            # Install without checking for dependencies.
 --skip-sha             # Install without checking file checksums.
+--use-free-libs        # Force to use free graphic libs to solve "Not found" errors of DF.
 --upgrade, -u          # Upgrade an existing DF installation.
 --version, -v          # Print the df-lnp-installer version.
 --help, --usage        # Print this message.
