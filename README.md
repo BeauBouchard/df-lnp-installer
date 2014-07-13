@@ -9,6 +9,16 @@ Overview
 
 df-lnp-installer is a shell script that installs the Dwarf Fortress Lazy Newb Pack. It downloads and builds a DF installation from available source code and binaries.
 
+
+Packages
+-------------
+
+There are several preassembled packages which can be downloaded for Dwarffortress V0.40.01, and soon V0.40.02. 
+
+In package V0.40.01 the only utility working is Dwarf Therapist
+
+
+
 Included Mods
 -------------
 
