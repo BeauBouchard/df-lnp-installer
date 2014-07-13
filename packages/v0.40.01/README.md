@@ -3,6 +3,8 @@ Lazy Newb Pack Linux V0.40.01
 
 I have assembled a small package to get people started on linux using the LNP interface and Dwarf Therapist updated to v0.40.01 
 
+You can download the package at: http://dffd.wimbli.com/file.php?id=8936
+
 Included Mods
 -------------
 * Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822
@@ -47,7 +49,7 @@ Included Mods
 =====
 
 ```
-Usage: sudo ./pack/startlnp
+Usage: sudo ./startlnp
 ```
 
 
