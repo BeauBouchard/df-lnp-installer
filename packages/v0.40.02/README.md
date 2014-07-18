@@ -10,7 +10,11 @@ Included Mods
 * Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822
 * Dwarf Therapist v20.5 (splintermind, pulled and built from source) with manual updated to v0.40.02
 * Tilesets
-  - [16x16] Phoebus v0.40.02.r1      [Tested and working]
+    - [16x16] Phoebus v0.40.03
+    - [24x24] Phoebus v0.40.02
+    - [16x16] CLA v15
+    - [16x16] Ironhand v0.40.03
+    - [16x16] Mayday v0.40.02
 
 
   System Requirements
