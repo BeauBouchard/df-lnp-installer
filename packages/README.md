@@ -3,6 +3,10 @@ Lazy Newb Pack Linux Packages
 
 Special thanks to [kiryl](https://github.com/kiryl/) for his hard work and [Dwarf Therapist ini](https://gist.github.com/kiryl/0a99fdbd70fede3064c6) file for the new version, without him this would not be possible. 
 
+V0.40.03
+-------------
+
+You can download the package at: http://dffd.wimbli.com/file.php?id=8936
 
 V0.40.02
 -------------
