@@ -17,16 +17,16 @@ Packages
 
 There are several preassembled packages which can be downloaded for Dwarffortress V0.40.01, V0.40.02 and soon V0.40.03. 
 
+V0.40.03
+-------------
+
+Download it at : http://dffd.wimbli.com/file.php?id=8936 
 
 V0.40.02
 -------------
 
 Download it at : http://dffd.wimbli.com/file.php?id=8949
 
-V0.40.01
--------------
-
-Download it at : http://dffd.wimbli.com/file.php?id=8936
 
 
 Included Mods
