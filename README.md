@@ -15,17 +15,13 @@ df-lnp-installer is a shell script that installs the Dwarf Fortress Lazy Newb Pa
 Packages
 -------------
 
-There are several preassembled packages which can be downloaded for Dwarffortress V0.40.01, V0.40.02 and soon V0.40.03. 
+There are several preassembled packages which can be downloaded for Dwarffortress V0.40.04
 
-V0.40.03
+V0.40.04
 -------------
 
-Download it at : http://dffd.wimbli.com/file.php?id=8936 
+Download it at : http://dffd.wimbli.com/file.php?id=8936
 
-V0.40.02
--------------
-
-Download it at : http://dffd.wimbli.com/file.php?id=8949
 
 
 
