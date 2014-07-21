@@ -6,7 +6,7 @@ I have assembled a small package to get people started on linux using the LNP in
 
 
 
-You can download the package at: 
+You can download the package at: http://dffd.wimbli.com/file.php?id=8936
 
 Included Mods
 -------------
