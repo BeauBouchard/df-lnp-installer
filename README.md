@@ -29,23 +29,14 @@ Included Mods
 -------------
 
 * Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822
-* DF Hack 0.34.11-r3
-* Falconne's DFHack UI Plugins v0.44
-* SoundSense r42 (app only)
-* Dwarf Therapist v20.5 (splintermind, pulled and built from source) with manual
+* SoundSense r42 (app only, run update on first run)
+* Dwarf Therapist v23.2 (splintermind, pulled and built from source) with manual
 * Quickfort 1.01
 * Chromafort 2010-04-25
 * A series of blueprints for Quickfort.
 * Various embark profiles.
 * Tilesets
-  - [12x12] Jolly Bastion 34.10v5
-  - [16x16] ASCII Default 0.34.11
-  - [16x16] CLA v15
-  - [16x16] Ironhand 0.73.4
-  - [16x16] Mayday 0.34.11
-  - [16x16] Obsidian 0.8a
-  - [16x16] Phoebus 34.11v01
-  - [16x16] Spacefox 34.11v1.0
+  - [16x16] Phoebus 0.40.04v01
 
 
 System Requirements
