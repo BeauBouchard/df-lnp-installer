@@ -42,6 +42,7 @@ backup_df_directory () {
 	fi
 }
 
+#Still works as of 2014-July-26
 build_dwarf_therapist () {
 	if [ -z "$DOWNLOAD_DIR" ]; then
 		exit_with_error "Script failure. DOWNLOAD_DIR undefined."
@@ -88,18 +89,18 @@ build_dwarf_therapist () {
 
 # One-off bugfixes that either require multiple packages to be installed first
 # or have other non-trivial consequences.
-bugfix_all () {
-	fix_cla_missing_mouse_png
-	fix_jolly_bastion_missing_graphics_dir
-	fix_jolly_bastion_missing_mouse_png
-	fix_phoebus_missing_mouse_png
-	fix_phoebus_gfx_font_ttf_name
-	fix_obsidian_gfx_font_ttf_name
-	fix_soundsense_missing_gamelog
-	fix_vanilla_df_openal_issue
-	fix_vanilla_df_ancient_libstdcpp
-	fix_vanilla_df_lnp_settings_not_applied_by_default
-}
+# bugfix_all () {
+# 	fix_cla_missing_mouse_png
+# 	fix_jolly_bastion_missing_graphics_dir
+# 	fix_jolly_bastion_missing_mouse_png
+# 	fix_phoebus_missing_mouse_png
+# 	fix_phoebus_gfx_font_ttf_name
+# 	fix_obsidian_gfx_font_ttf_name
+# 	fix_soundsense_missing_gamelog
+# 	fix_vanilla_df_openal_issue
+# 	fix_vanilla_df_ancient_libstdcpp
+# 	fix_vanilla_df_lnp_settings_not_applied_by_default
+# }
 
 find_python2 () {
 	for name in "python" "python2"; do
@@ -400,17 +401,18 @@ check_ptrace_protection () {
 	fi
 }
 
-checksum_all () {
+# Sorry, but so many things were breaking due to quickly updates would come out.
+#checksum_all () {
 	# Check for file validity.
-	sha1sum -c sha1sums
+#	sha1sum -c sha1sums
 
 	# Quit if one or more of the files fails its checksum.
-	if [ "$?" != "0" ]; then
+#	if [ "$?" != "0" ]; then
 		# Clean up after ourself.
 		# Nothing to do.
-		exit_with_error "One or more file failed its checksum. Delete the erroring file from the ./downloads directory and try again."
-	fi
-}
+#		exit_with_error "One or more file failed its checksum. Delete the erroring file from the ./downloads directory and try again."
+#	fi
+#}
 
 copy_dest_dir_to_install_dir () {
 	if [ -z "$DEST_DIR" ]; then
@@ -857,14 +859,14 @@ install_all () {
 	install_dfhack
 	install_falconne_dfhack_plugins
 
-	install_phoebus_gfx_pack
-	install_cla_graphics_pack
-	install_ironhand_gfx_pack
-	install_mayday_gfx_pack
-	install_obsidian_gfx_pack
-	install_spacefox_gfx_pack
-	install_vanilla_df_gfx_pack
-	install_jolly_bastion_gfx_pack
+#	install_phoebus_gfx_pack
+#	install_cla_graphics_pack
+#	install_ironhand_gfx_pack
+#	install_mayday_gfx_pack
+#	install_obsidian_gfx_pack
+#	install_spacefox_gfx_pack
+#	install_vanilla_df_gfx_pack
+#	install_jolly_bastion_gfx_pack
 
 	install_soundsense_app
 
