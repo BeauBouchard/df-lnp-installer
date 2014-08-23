@@ -1,23 +1,22 @@
 Lazy Newb Pack Linux
 ====================
 As of 2014-06-24, [the master repository](https://github.com/andrewd18/df-lnp-installer) is unmaintained. See [this post for more
-information](http://www.bay12forums.com/smf/index.php?topic=130792.msg5403952#msg5403952).
-
+information](http://www.bay12forums.com/smf/index.php?topic=130792.msg5403952#msg5403952). 
 
 Overview
 ========
 
-df-lnp-installer is a shell script that installs the Dwarf Fortress Lazy Newb Pack. It downloads and builds a DF installation from available source code and binaries. Special thanks to [kiryl](https://github.com/kiryl/) for his hard work and [Dwarf Therapist ini](https://gist.github.com/kiryl/0a99fdbd70fede3064c6) file for the new version, without him this would not be possible. 
+df-lnp-installer is a shell script that installs the Dwarf Fortress Lazy Newb Pack. It downloads and builds a DF installation from available source code and binaries. 
 
-
+This is an attempt to update [andrew18's](https://github.com/andrewd18/) package assembler to DF 2014. Due to the rapid pace that Dwarf fortress is being updated at this time development is hard and many features will be missing or disabled until there is a lul an development. Untill then please feel free to check out the pre-assembled packages. 
 
 
 Packages
 -------------
 
-There are several preassembled packages which can be downloaded for Dwarffortress V0.40.04
+There are several preassembled packages which can be downloaded for Dwarffortress V0.40.09
 
-V0.40.04
+V0.40.09
 -------------
 
 Download it at : http://dffd.wimbli.com/file.php?id=8936
@@ -116,9 +115,8 @@ Common Issues
 =============
 See [the WIKI](https://github.com/andrewd18/df-lnp-installer/wiki).
 
+
 Tested On
 =========
 
-* Debian 7     "Wheezy",          fresh install. 
-* Ubuntu 13.10 "Saucy Salamander" fresh install.
 * Ubuntu 14.04 "Trusty Tahr"      fresh install.
